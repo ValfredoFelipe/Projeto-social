@@ -26,4 +26,37 @@
     width: 311px;
     background: url(../pacote-d013/imagens/frame-iphone.png) no-repeat;
  }
+ iframe#tela{
+   position: relative;
+   top: 80px;
+   left: 22px;
+   width: 269px;
+   height: 471px;
+   background-size: cover;
+   
+ }
+ section#redes-sociais{
+   text-align: right;
+   
+ }
 
+section#redes-sociais {
+   padding-top: 40px;
+}
+ section#redes-sociais img{
+   width: 50px;
+   margin: 10px;
+   border-radius: 50%;
+   background-image: center;
+   
+
+ }
+ section#redes-sociais img:hover{
+   border: 2px solid white;
+   transform: translate(-3px -px);
+   box-shadow: 3px 3px 3px black;
+   transition: transform .3s;
+   
+
+
+ }
